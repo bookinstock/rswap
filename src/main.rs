@@ -2,7 +2,6 @@ use std::env;
 // use std::io;
 use std::fs;
 
-
 fn main() -> std::io::Result<()> {
     let args: Vec<String> = env::args().collect();
     println!("{:?}", args);
